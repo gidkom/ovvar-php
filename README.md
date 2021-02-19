@@ -34,8 +34,8 @@ $voucher  = new Voucher($apikey);
 Simply supply the needed parameters  
 currency: USD  
 value: amount value  
+quantity: number of vouchers to generated  
 channel: email | sms
-quantity: number of vouchers to be generated
 recipient_phone: phone number to receive voucher pin  
 recipient email: email to receive voucher pin 
 
