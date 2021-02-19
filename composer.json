@@ -3,7 +3,7 @@
     "description": "A PHP library to interact with ovvar API",
     "type": "library",
     "license": "MIT",
-    "keywords": ["bitcoin", "ovvar", "crypto"],
+    "keywords": ["bitcoin", "ovvar", "crypto", "laravel"],
     "authors": [{
         "name": "Gideon Kombian",
         "email": "gidkom@yahoo.co.uk"

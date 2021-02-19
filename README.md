@@ -17,7 +17,7 @@ A PHP library to interact with ovvar API
 ## Usage
 
 ### Authentication
-Generate an API KEY from the [Ovvar dashboard](https://app.ovvar.com)
+Generate an API KEY from the <a href="https://app.ovvar.com" target="_blank">Ovvar dashboard</a>
 
 
 ### Setup
