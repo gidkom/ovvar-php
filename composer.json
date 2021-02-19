@@ -1,0 +1,35 @@
+{
+    "name": "gidkom/ovvar-php",
+    "description": "A PHP library to interact with ovvar API",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["bitcoin", "ovvar", "crypto"],
+    "authors": [
+        {
+            "name": "Gideon Kombian",
+            "email": "gidkom@yahoo.co.uk"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.12",
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+          "Gidkom\\Ovvar\\Voucher\\": "src/",
+          "Gidkom\\Ovvar\\RestClient\\": "src/"
+        },
+        "files": [
+            "src/Gidkom/Ovvar/Voucher.php",
+            "src/Gidkom/Ovvar/RestClient.php",
+            "src/Gidkom/Ovvar/VoucherServiceProvider.php"
+        ]
+    },
+    "scripts": {
+        "tests": "./vendor/bin/phpunit tests",
+        "testsVerbose": "@tests -vvv"
+      }
+}
