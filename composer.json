@@ -31,6 +31,9 @@
             "providers": [
                 "Gidkom\\Ovvar\\VoucherServiceProvider"
             ]
+        },
+        "branch-alias": {
+            "dev-master": "dev-main"
         }
     },
     "scripts": {
